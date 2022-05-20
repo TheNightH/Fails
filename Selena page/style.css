@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Rubik+Bubbles&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: brown;
+}
+
+html,
+body {
+    background-color: rgb(177, 255, 238);
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: url("img2/headbackground.jpg");
+    background-color: rgba(0, 250, 250, .4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.main-nav {
+    text-align: center;
+    padding: .5em;
+    color: limegreen;
+    border-top: 2px solid burlywood;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    border-radius: 10px;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 1.5em;
+}
+
+.nav-li {
+    background-color: rgba(138, 43, 226, .5);
+    border: 2px solid brown;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: lime;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 250, 250, .4);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: lighter
+}
+
+.footer-title {
+    font-size: 34px;
+    max-width: 900px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+}
+
+.about-selena-image {
+    float: right;
+    ;
+}
+
+.main-footer {
+    background-color: aqua;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.mainfooter-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: rgb(21, 255, 0);
+    border: 3px solid brown;
+    background-color: rgba(50, 128, 216, .5);
+    border-radius: 0;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(0, 250, 250, .4);
+}
+
+.btn-play {
+    margin: 0 auto;
+    display: block;
+    color: red;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-song {
+    width: 50%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: red;
+    background-color: rgba(50, 128, 216, .5);
+    font-weight: bold;
+    border-color: brown;
+    border-radius: .3em;
+}
+
+.btn-primary:hover {
+    background: rgba(0, 250, 250, .4);
+}
